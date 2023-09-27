@@ -3,10 +3,10 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:weather_app/ad_helper.dart';
-import 'package:weather_app/homepage.dart';
+import 'package:weather_app/services/ad_helper.dart';
+import 'package:weather_app/view/homepage.dart';
 import 'package:weather_app/services/weather.dart';
-import 'package:weather_app/services/weather_model.dart';
+import 'package:weather_app/model/weather_model.dart';
 
 class WeatherProvider extends ChangeNotifier {
   late BannerAd bottomBannerAd;

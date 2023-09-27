@@ -7,7 +7,7 @@ import 'package:provider/provider.dart';
 import 'package:swipe_refresh/swipe_refresh.dart';
 import 'package:weather_app/services/weather.dart';
 import 'package:intl/intl.dart';
-import 'package:weather_app/weather_provider.dart';
+import 'package:weather_app/services/weather_provider.dart';
 
 // ignore: must_be_immutable
 class HomePage extends StatelessWidget {

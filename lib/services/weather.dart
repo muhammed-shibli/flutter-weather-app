@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:weather_app/services/location.dart';
 import 'package:weather_app/services/network_data.dart';
-import 'package:weather_app/services/weather_model.dart';
+import 'package:weather_app/model/weather_model.dart';
 
 const weatherApiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 const weatherForecastApiUrl = 'https://api.openweathermap.org/data/2.5/onecall';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
-import 'package:weather_app/weather_provider.dart';
-import 'package:weather_app/weather_splash.dart';
+import 'package:weather_app/services/weather_provider.dart';
+import 'package:weather_app/view/weather_splash.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized(); 
